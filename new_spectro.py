@@ -5,8 +5,8 @@ from scipy.signal import spectrogram
 import cv2
 import os
 
-source_dir = "new"  # 소스 디렉토리 경로를 수정하세요.
-dest_dir = "longitudinal_spectrogram"  # 대상 디렉토리 경로를 설정하세요.
+source_dir = "new"  # 소스 디렉토리 경로
+dest_dir = "longitudinal_spectrogram"  # 대상 디렉토리 경로
 
 if not os.path.exists(dest_dir):
     os.makedirs(dest_dir)
