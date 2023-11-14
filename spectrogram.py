@@ -80,11 +80,9 @@
 # import matplotlib.cm as cm
 # from sklearn.decomposition import PCA
 #
-# # 소스 및 대상 디렉토리 정의
-# source_dir = "data"  # 소스 디렉토리 경로를 수정하세요.
+# source_dir = "data"  # 소스 디렉토리 경로
 # ############수정#################
-# dest_dir = "longitudinal_spectrogram"  # 대상 디렉토리 경로를 설정하세요.
-#
+# dest_dir = "longitudinal_spectrogram"  # 대상 디렉토리 경로
 # if not os.path.exists(dest_dir):
 #     os.makedirs(dest_dir)
 #
